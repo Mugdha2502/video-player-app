@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="CardViewStyle">
+        <item name="android:layout_marginBottom">@dimen/_8sdp</item>
+        <item name="android:layout_marginLeft">@dimen/_12sdp</item>
+        <item name="android:layout_marginRight">@dimen/_12sdp</item>
+        <item name="android:layout_marginTop">@dimen/_8sdp</item>
+        <item name="cardBackgroundColor">@android:color/white</item>
+    </style>
+    <style name="HeaderTextAboveCardviews">
+        <item name="android:textColor">@color/results_header_text</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginBottom">11dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginTop">11dp</item>
+    </style>
+
+
+
+</resources>

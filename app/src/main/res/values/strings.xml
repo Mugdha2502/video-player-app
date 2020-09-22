@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Trell Live</string>
+    <string name="search_hint">Search</string>
+    <string name="matches">My Videos</string>
+</resources>
